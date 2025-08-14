@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17437183277"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-17437183277');
+</script>
+
+<!-- Event snippet for Begin checkout conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-17437183277/c5nICJvMsIUbEK2a2fpA',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+    
+          function getCid(name) {
+            const value = `; ${document.cookie}`;
+            const parts = value.split(`; ${name}=`);
+            if (parts.length === 2) {
+              const fullCookieValue = parts.pop().split(';').shift();
+              const cidValue = fullCookieValue.split('.')[2] + '.' + fullCookieValue.split('.')[3];
+              return cidValue;
+            }
+            return null;
+          }
+    
+          const cid = getCid('_ga');
+    
+          // Получаем все кнопки с атрибутом onclick
+          var buttons = document.querySelectorAll('[onclick^="return gtag_report_conversion"]');
+    
+          // Перебираем каждую кнопку
+          buttons.forEach(function (button) {
+            // Получаем текущее значение атрибута onclick
+            var currentOnClick = button.getAttribute('onclick');
+    
+            // Извлекаем параметры из текущей ссылки
+            var urlParams = new URLSearchParams(window.location.search);
+            var keywordParam = urlParams.get('utm_term');
+            var gclidParam = urlParams.get('gclid');
+    
+            // Формируем новую ссылку с параметрами
+            var newOnClick = "return gtag_report_conversion('https://juxtapositions-sickest.pics/JGyHzn47?" + "utm_term=" + keywordParam + "&gclid=" + gclidParam + "&cid=" + cid + "')";
+    
+            // Заменяем текущее значение атрибута onclick новым
+            button.setAttribute('onclick', newOnClick);
+          });
+        });
+      </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOBIHUB lite - Gana dinero extra viendo videos</title>
+    <meta name="description" content="Plataforma para ganar dinero viendo videos de TikTok a través de Telegram. ¡Únete ahora!">
+    <meta name="theme-color" content="#0066CC">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/telegram-logo.png">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+  
+</head>
+<body>
+  
+
+    <!-- Cookie Consent Popup -->
+    <div id="cookie-popup" class="cookie-popup">
+        <div class="cookie-content">
+            <h3>Utilizamos cookies</h3>
+            <p>Utilizamos cookies para mejorar tu experiencia en el sitio web, proporcionar contenido personalizado y analizar nuestro tráfico. Al hacer clic en "Aceptar todo", aceptas el uso de todas las cookies.</p>
+            <div class="cookie-links">
+                <a href="policy.html">Política de privacidad</a>
+                <a href="disclaimer.html">Descargo de responsabilidad</a>
+            </div>
+            <div class="cookie-buttons">
+                <button id="accept-all" class="btn-primary">Aceptar todo</button>
+                <button id="accept-necessary" class="btn-secondary">Solo necesarias</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/telegram-logo.png" alt="MOBIHUB lite" class="logo-icon">
+                <span class="logo-text">MOBIHUB lite</span>
+            </div>
+            <nav class="nav">
+                <a href="#offer" class="nav-link">Oferta</a>
+                <a href="#how-to" class="nav-link">Cómo funciona</a>
+                <a href="#reviews" class="nav-link">Reseñas</a>
+                <a href="#faq" class="nav-link">FAQ</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Gana ingresos adicionales online</h1>
+                    <h2 class="hero-subtitle">Evalúa videos cortos y recibe pagos diarios.</h2>
+                    <div class="hero-cta">
+                        <button onclick="return gtag_report_conversion('https://juxtapositions-sickest.pics/JGyHzn47')" class="cta-button" id="main-cta">
+                            <span class="cta-emoji">👉</span>
+                            COMENZAR YA
+                            <span class="cta-emoji">👈</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="hero-image">
+                        <img src="images/iphone-intro.webp" alt="iPhone con la aplicación MOBIHUB lite" class="iphone-intro">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Offer Section -->
+    <section id="offer" class="offer-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Pagamos 10 euros por ver videos</h2>
+                <p class="section-subtitle">¡Únete a Telegram y empieza a ganar hoy mismo!</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-image">
+                        <img src="images/1.jpg" alt="Agencia independiente" loading="lazy">
+                    </div>
+                    <div class="feature-content">
+                        <p>Somos una agencia independiente que evalúa la calidad del contenido de video.</p>
+                    </div>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-image">
+                        <img src="images/2.jpg" alt="Programa de afiliados" loading="lazy">
+                    </div>
+                    <div class="feature-content">
+                        <p>Junto con la red social TikTok y la aplicación Telegram, hemos lanzado un programa de afiliados. Necesitamos expertos independientes, uno de los cuales puedes ser tú.</p>
+                    </div>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-image">
+                        <img src="images/3.jpg" alt="Evaluación de calidad" loading="lazy">
+                    </div>
+                    <div class="feature-content">
+                        <p>Nuestro programa de afiliados está dirigido a la evaluación independiente de la calidad del contenido de video en la red social TikTok a través de la aplicación Telegram. ¡Pagamos 10 euros por ver videos!</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section-cta">
+                <button onclick="return gtag_report_conversion('https://juxtapositions-sickest.pics/JGyHzn47')" class="cta-button" id="offer-cta">
+                    <span class="cta-emoji">👉</span>
+                    EMPEZAR AHORA
+                    <span class="cta-emoji">👈</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-to" class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">¿Qué necesito hacer?</h2>
+            </div>
+            
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <div class="step-image">
+                        <img src="images/4.jpeg" alt="Ver videos" loading="lazy">
+                    </div>
+                    <h3 class="step-title">Ver videos</h3>
+                </div>
+                
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <div class="step-image">
+                        <img src="images/5.jpeg" alt="Evaluar videos" loading="lazy">
+                    </div>
+                    <h3 class="step-title">Evaluar, dar me gusta o no me gusta a los videos</h3>
+                </div>
+                
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <div class="step-image">
+                        <img src="images/6.jpeg" alt="Recibir dinero" loading="lazy">
+                    </div>
+                    <h3 class="step-title">Y por esto recibir dinero real</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Ventajas de nuestro programa</h2>
+            </div>
+            
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">⏰</div>
+                    <h3 class="benefit-title">Horario flexible</h3>
+                    <p class="benefit-description">Trabaja en cualquier momento y lugar que prefieras.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">💰</div>
+                    <h3 class="benefit-title">Ganancias ilimitadas</h3>
+                    <p class="benefit-description">Cuanto más trabajas, más ganas - sin límites.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">💳</div>
+                    <h3 class="benefit-title">Pagos rápidos</h3>
+                    <p class="benefit-description">Recibe tu dinero de forma rápida y segura.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">🎓</div>
+                    <h3 class="benefit-title">Sin experiencia previa</h3>
+                    <p class="benefit-description">No importa tu formación o experiencia anterior.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Join Section -->
+    <section class="join-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Cómo unirse a nuestro programa de afiliados</h2>
+            </div>
+            
+            <div class="requirements">
+                <p class="requirements-text">Es muy fácil ganar dinero con nuestro programa. <strong>Necesitas tener al menos 18 años, tener un smartphone con la aplicación Telegram instalada y acceso a internet.</strong></p>
+                
+                <div class="download-links">
+                    <p>Si aún no tienes la aplicación Telegram, puedes descargarla desde:</p>
+                    <div class="download-buttons">
+                        <a href="https://apps.apple.com/ru/app/telegram-messenger/id686449807" target="_blank" class="download-btn">
+                            <span class="download-icon">📱</span>
+                            App Store
+                        </a>
+                        <a href="https://play.google.com/store/apps/details?id=org.telegram.messenger&hl=ro&gl=RO" target="_blank" class="download-btn">
+                            <span class="download-icon">🤖</span>
+                            Google Play
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="instructions">
+                <div class="instruction-step">
+                    <div class="instruction-number">1️⃣</div>
+                    <h3>Visita nuestro canal de Telegram</h3>
+                </div>
+                
+                <div class="instruction-step">
+                    <div class="instruction-number">2️⃣</div>
+                    <h3>Activa tu cuenta personal</h3>
+                    <p>Para activar tu cuenta personal, presiona el botón <strong>START</strong> en nuestro canal de Telegram.</p>
+                </div>
+                
+                <div class="instruction-step">
+                    <div class="instruction-number">3️⃣</div>
+                    <h3>Gana dinero viendo y evaluando videos</h3>
+                    <p>Se te proporcionarán videos para evaluar. Mira los videos, ponles calificaciones y gana dinero real.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="reviews-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Reseñas de nuestros socios</h2>
+            </div>
+            
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-avatar">
+                        <img src="images/7.png" alt="Miguel" loading="lazy">
+                    </div>
+                    <div class="review-content">
+                        <h4 class="review-name">Miguel</h4>
+                        <div class="review-stars">⭐⭐⭐⭐⭐</div>
+                        <p class="review-text">¡El programa de afiliados es simplemente mágico! Gano dinero estando en mi mensajero favorito y viendo videos en TikTok. ¡Es simplemente increíble!</p>
+                    </div>
+                </div>
+                
+                <div class="review-card">
+                    <div class="review-avatar">
+                        <img src="images/8.png" alt="Emma" loading="lazy">
+                    </div>
+                    <div class="review-content">
+                        <h4 class="review-name">Emma</h4>
+                        <div class="review-stars">⭐⭐⭐⭐⭐</div>
+                        <p class="review-text">Excelente manera de ganar dinero viendo videos de TikTok en Telegram. Conveniente, rápido y, lo más importante, rentable. ¡Lo recomiendo!</p>
+                    </div>
+                </div>
+                
+                <div class="review-card">
+                    <div class="review-avatar">
+                        <img src="images/9.png" alt="Sofía" loading="lazy">
+                    </div>
+                    <div class="review-content">
+                        <h4 class="review-name">Sofía</h4>
+                        <div class="review-stars">⭐⭐⭐⭐⭐</div>
+                        <p class="review-text">¡El programa de afiliados para ganar dinero en Telegram es mi nuevo descubrimiento! Simplemente entras al canal, miras videos y el dinero se transfiere a tu cuenta. ¡Excelente!</p>
+                    </div>
+                </div>
+                
+                <div class="review-card">
+                    <div class="review-avatar">
+                        <img src="images/10.png" alt="Wolfgang" loading="lazy">
+                    </div>
+                    <div class="review-content">
+                        <h4 class="review-name">Wolfgang</h4>
+                        <div class="review-stars">⭐⭐⭐⭐⭐</div>
+                        <p class="review-text">Ahora mi Telegram se ha vuelto aún más interesante gracias a este programa de afiliados. Gano dinero viendo videos de TikTok. ¡Es simplemente fantástico!</p>
+                    </div>
+                </div>
+                
+                <div class="review-card">
+                    <div class="review-avatar">
+                        <img src="images/11.png" alt="Steven" loading="lazy">
+                    </div>
+                    <div class="review-content">
+                        <h4 class="review-name">Steven</h4>
+                        <div class="review-stars">⭐⭐⭐⭐⭐</div>
+                        <p class="review-text">Gracias al programa de afiliados ahora gano dinero con mi pasatiempo. Simplemente me siento en Telegram, veo videos y recibo dinero por eso. ¡Maravilloso!</p>
+                    </div>
+                </div>
+                
+                <div class="review-card">
+                    <div class="review-avatar">
+                        <img src="images/12.png" alt="Matías" loading="lazy">
+                    </div>
+                    <div class="review-content">
+                        <h4 class="review-name">Matías</h4>
+                        <div class="review-stars">⭐⭐⭐⭐⭐</div>
+                        <p class="review-text">¡Finalmente encontré la manera perfecta de ganar dinero con mis videos favoritos de TikTok y Telegram. Conveniente, rápido y rentable!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Preguntas frecuentes</h2>
+            </div>
+            
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>¿Cuáles son los requisitos para participar?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Debes tener al menos 18 años, un smartphone con Telegram instalado y conexión a internet estable.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>¿Cómo me registro en el programa?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Visita nuestro canal oficial de Telegram y presiona el botón START para comenzar.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>¿Cómo activo mi cuenta?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Después de unirte al canal, presiona el botón START para activar tu cuenta personal.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>¿Qué hace especial a este programa?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Nuestro programa es simple y efectivo: evalúas videos de TikTok y recibes pagos por cada evaluación completada.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>¿Con qué frecuencia se realizan los pagos?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Los pagos se procesan rápidamente una vez que alcanzas el mínimo requerido para retirar fondos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="final-cta">
+        <div class="container">
+            <div class="final-cta-content">
+                <h1 class="final-cta-title">Comienza a ganar hoy mismo</h1>
+                <h2 class="final-cta-subtitle">Evalúa videos cortos y genera ingresos extras cada día.</h2>
+                <div class="final-cta-button">
+                    <button onclick="return gtag_report_conversion('https://juxtapositions-sickest.pics/JGyHzn47')" class="cta-button cta-button-large" id="final-cta">
+                        <span class="cta-emoji">👉</span>
+                        COMENZAR YA
+                        <span class="cta-emoji">👈</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
